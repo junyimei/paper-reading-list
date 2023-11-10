@@ -24,6 +24,9 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 * [**ATC 2020**] GraphWalker: An I/O-Efficient and Resource-Friendly Graph Analytic System for Fast and Scalable Random Walks.
   >*Rui Wang, Yongkun Li, et al.* [[paper]](https://www.usenix.org/conference/atc20/presentation/wang-rui)
 
+* [**SOSP 2019**] KnightKing: a fast distributed graph random walk engine.
+  >*Ke Yang, MingXing Zhang, Kang Chen, et al.* [[paper]](https://dl.acm.org/doi/10.1145/3341301.3359634)
+
 ### Graph Sampling on GPU and FPGA
 * [**ICDE 2023**] LightTraffic: On Optimizing CPU-GPU Data Traffic for Efficient Large-scale Random Walks.
   >*Y. Xing, Y. Li, Z. Wang, Y. Xu and J. C. S. Lui.* [[paper]](https://ieeexplore.ieee.org/document/10184564)
@@ -54,6 +57,9 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 * [**ASPLOS 2023**] uGrapher: High-Performance Graph Operator Computation via Unified Abstraction for Graph Neural Networks.
   >*Yangjie Zhou, Jingwen Leng, Yaoxu Song, et al.* [[paper]](https://dl.acm.org/doi/10.1145/3575693.3575723)
 
+* [**ASPLOS 2023**] Betty: Enabling Large-Scale GNN Training with Batch-Level Graph Partitioning.
+  >*Yang, Shuangyan and Zhang, Minjia and Dong, Wenqian and Li, Dong.* [[paper]](https://dl.acm.org/doi/10.1145/3575693.3575725)
+
 * [**ATC 2023**] TC-GNN: Bridging Sparse GNN Computation and Dense Tensor Cores on GPUs.
   >*Yuke Wang, Boyuan Feng, et al.* [[paper]](https://www.usenix.org/conference/atc23/presentation/wang-yuke)
 
@@ -68,6 +74,9 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 
 * [**PPoPP 2023**] DSP: Efficient GNN Training with Multiple GPUs.
   >*Zhenkun Cai, Qihui Zhou, et al.* [[paper]](https://dl.acm.org/doi/10.1145/3572848.3577528)
+
+* [**SOSP 2023**] UGACHE: A Unified GPU Cache for Embedding-based Deep Learning.
+  >*Xiaoniu Song, Yiwen Zhang, Rong Chen, and Haibo Chen.* [[paper]](https://dl.acm.org/doi/10.1145/3600006.3613169)
 
 * [**EuroSys 2022**] GNNLab: a factored system for sample-based GNN training over GPUs.
   >*Jianbang Yang, Dahai Tang, Xiaoniu Song, et al.* [[paper]](https://dl.acm.org/doi/10.1145/3492321.3519557)
