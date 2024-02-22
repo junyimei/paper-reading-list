@@ -2,6 +2,14 @@
 
 Papers about graph sampling framework, GNN system, graph processing and GPU techniques. Inspired by [Literature on Graph Neural Networks Acceleration](https://github.com/BUAA-CI-Lab/Literatures-on-GNN-Acceleration#literature-on-graph-neural-networks-acceleration).
 
+- [paper-reading-list](#paper-reading-list)
+  - [Graph Sampling](#graph-sampling)
+    - [CPU Graph Sampling](#cpu-graph-sampling)
+    - [Graph Sampling on GPU and FPGA](#graph-sampling-on-gpu-and-fpga)
+  - [GNN](#gnn)
+  - [Graph Processing](#graph-processing)
+
+
 ## Graph Sampling
 
 ### CPU Graph Sampling
@@ -113,7 +121,11 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
   > _Yuke Wang, Boyuan Feng, and Yufei Ding_ [[paper]](https://dl.acm.org/doi/abs/10.1145/3503221.3508408)
 
 - [**OSDI 2021**] Marius: Learning Massive Graph Embeddings on a Single Machine.
+
   > _Jason Mohoney, Roger Waleffe, et al._ [[paper]](https://www.usenix.org/conference/osdi21/presentation/mohoney)
+
+- [**VLDB 2021**] Large graph convolutional network training with GPU-oriented data communication architecture.
+  > _Seung Won Min, Kun Wu, et al._ [[paper]](https://dl.acm.org/doi/10.14778/3476249.3476264)
 
 ## Graph Processing
 
