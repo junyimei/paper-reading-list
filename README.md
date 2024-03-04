@@ -8,6 +8,8 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
     - [Graph Sampling on GPU and FPGA](#graph-sampling-on-gpu-and-fpga)
   - [GNN](#gnn)
   - [Graph Processing](#graph-processing)
+  - [Graph Accelerator](#graph-accelerator)
+  - [Miscellaneous](#miscellaneous)
 
 
 ## Graph Sampling
@@ -25,6 +27,10 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 - [**EuroSys 2023**] TEA: A General-Purpose Temporal Graph Random Walk Engine.
 
   > _Chengying Huan, Shuaiwen Leon Song, et al._ [[paper]](https://dl.acm.org/doi/abs/10.1145/3552326.3567491)
+
+- [**ICDE 2023**] LightTraffic: On Optimizing CPU-GPU Data Traffic for Efficient Large-scale Random Walks.
+
+  > _Xing Yipeng, Li Yongkun, et al._ [[paper]](https://ieeexplore.ieee.org/document/10184564)
 
 - [**VLDB 2022**] An I/O-efficient disk-based graph system for scalable second-order random walk of large graphs.
 
@@ -124,6 +130,10 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 
   > _Jason Mohoney, Roger Waleffe, et al._ [[paper]](https://www.usenix.org/conference/osdi21/presentation/mohoney)
 
+- [**OSDI 2021**] GNNAdvisor: An Adaptive and Efficient Runtime System for GNN Acceleration on GPUs.
+
+  > _Yuke Wang, Boyuan Feng, Gushu Li, et al._ [[paper]](https://www.usenix.org/conference/osdi21/presentation/wang-yuke)
+
 - [**VLDB 2021**] Large graph convolutional network training with GPU-oriented data communication architecture.
   > _Seung Won Min, Kun Wu, et al._ [[paper]](https://dl.acm.org/doi/10.14778/3476249.3476264)
 
@@ -151,3 +161,21 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 
 - [**EuroSys 2020**] Subway: minimizing data transfer during out-of-GPU-memory graph processing.
   > _Amir Hossein Nodehi Sabet, et al._ [[paper]](https://dl.acm.org/doi/abs/10.1145/3342195.3387537)
+
+- [**PPoPP 2016**] Gunrock: a high-performance graph processing library on the GPU.
+  > _Yangzihao Wang, Andrew Davidson, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3016078.2851145)
+
+## Graph Accelerator
+- [**ISCA 2023**] Shogun: A Task Scheduling Framework for Graph Mining Accelerators.
+  > _Yibo Wu, Jianfeng Zhu, Wenrui Wei, et al._ [[paper]](https://dl.acm.org/doi/abs/10.1145/3579371.3589086)
+
+
+## Miscellaneous
+- [**SOSP 2023**] UGACHE: A Unified GPU Cache for Embedding-based Deep Learning.
+  > _Xiaoniu Song, Yiwen Zhang, Rong Chen, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3600006.3613169)
+
+- [**HPCA 2022**] Tacker: Tensor-CUDA Core Kernel Fusion for Improving the GPU Utilization while Ensuring QoS.
+  > _Han Zhao, Weihao Cui, Quan Chen, et al._ [[paper]](https://ieeexplore.ieee.org/document/9773253)
+
+- [**ICS 2021**] ThundeRiNG: Generating Multiple Independent Random Number Sequences on FPGAs.
+  > _Hongshi Tan, Xinyu Chen, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3447818.3461664)
