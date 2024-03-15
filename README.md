@@ -32,6 +32,13 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 
   > _Xing Yipeng, Li Yongkun, et al._ [[paper]](https://ieeexplore.ieee.org/document/10184564)
 
+- [**VLDB 2023**] Distributed Graph Embedding with Information-Oriented Random Walks.
+  > _Peng Fang, Arijit Khan, et al._ [[paper]](https://dl.acm.org/doi/10.14778/3587136.3587140)
+
+- [**IPDPS 2022**] FlashWalker: An In-Storage Accelerator for Graph Random Walks.
+
+  > _Fuping Niu, Jianhui Yue, et al._ [[paper]](https://ieeexplore.ieee.org/document/9820661)
+
 - [**VLDB 2022**] An I/O-efficient disk-based graph system for scalable second-order random walk of large graphs.
 
   > _Hongzheng Li, Yingxia Shao, et al._ [[paper]](https://dl.acm.org/doi/10.14778/3529337.3529346)
@@ -50,6 +57,9 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 
 - [**SOSP 2019**] KnightKing: a fast distributed graph random walk engine.
   > _Ke Yang, MingXing Zhang, Kang Chen, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3341301.3359634)
+
+- [**RecSys 2013**] DrunkardMob: billions of random walks on just a PC.
+  > _Aapo Kyrola._ [[paper]](https://dl.acm.org/doi/10.1145/2507157.2507173)
 
 ### Graph Sampling on GPU and FPGA
 
@@ -151,6 +161,10 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 
   > _Hongtao Chen, Mingxing Zhang, Ke Yang, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3575693.3576173)
 
+- [**SC 2023**] Choosing the Best Parallelization and Implementation Styles for Graph Analytics Codes: Lessons Learned from 1106 Programs.
+
+  > _Yiqian Liu, Noushin Azami, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3581784.3607038)
+
 - [**OSDI 2022**] Efficient and Scalable Graph Pattern Mining on GPUs.
 
   > _Xuhao Chen and Arvind._ [[paper]](https://www.usenix.org/system/files/osdi22-chen.pdf)
@@ -183,6 +197,9 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 ## GPU
 - [**ASPLOS 2024**] JUNO: Optimizing High-Dimensional Approximate Nearest Neighbour Search with Sparsity-Aware Algorithm and Ray-Tracing Core Mapping.
   > _Zihan Liu, et al._ 
+
+- [**SC 2023**] Parallel Top-K Algorithms on GPU: A Comprehensive Study and New Methods.
+  > _Jingrong Zhang, Akira Naruse, Xipeng Li, and Yong Wang._ [[paper]](https://dl.acm.org/doi/10.1145/3581784.3607062)
 
 - [**HPCA 2022**] Tacker: Tensor-CUDA Core Kernel Fusion for Improving the GPU Utilization while Ensuring QoS.
   > _Han Zhao, Weihao Cui, Quan Chen, et al._ [[paper]](https://ieeexplore.ieee.org/document/9773253)
