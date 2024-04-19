@@ -6,9 +6,9 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
   - [Graph Sampling](#graph-sampling)
     - [CPU Graph Sampling](#cpu-graph-sampling)
     - [Graph Sampling on GPU and FPGA](#graph-sampling-on-gpu-and-fpga)
-  - [GNN](#gnn)
+  - [GNN | Graph Embedding](#gnn--graph-embedding)
   - [Graph Processing](#graph-processing)
-  - [GPU](#gpu)
+  - [Vector Search](#vector-search)
   - [Miscellaneous](#miscellaneous)
 
 
@@ -90,7 +90,7 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 - [**SC 2020**] C-SAW: A Framework for Graph Sampling and Random Walk on GPUs.
   > _S. Pandey, L. Li, A. Hoisie, X. S. Li and H. Liu._ [[paper]](https://ieeexplore.ieee.org/document/9355289)
 
-## GNN
+## GNN | Graph Embedding
 
 - [**SIGMOD 2024**] HongTu: Scalable Full-Graph GNN Training on Multiple GPUs.
 
@@ -129,8 +129,7 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
   > _Zhenkun Cai, Qihui Zhou, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3572848.3577528)
 
 - [**SOSP 2023**] UGACHE: A Unified GPU Cache for Embedding-based Deep Learning.
-
-  > _Xiaoniu Song, Yiwen Zhang, Rong Chen, and Haibo Chen._ [[paper]](https://dl.acm.org/doi/10.1145/3600006.3613169)
+  > _Xiaoniu Song, Yiwen Zhang, Rong Chen, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3600006.3613169)
 
 - [**EuroSys 2022**] GNNLab: a factored system for sample-based GNN training over GPUs.
 
@@ -143,6 +142,9 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 - [**PPoPP 2022**] QGTC: accelerating quantized graph neural networks via GPU tensor core.
 
   > _Yuke Wang, Boyuan Feng, and Yufei Ding_ [[paper]](https://dl.acm.org/doi/abs/10.1145/3503221.3508408)
+
+- [**SC 2022**] WholeGraph: A Fast Graph Neural Network Training Framework with Multi-GPU Distributed Shared Memory Architecture.
+  > _Dongxu Yang, Junhong Liu, er al._ [[paper]](https://ieeexplore.ieee.org/document/10046129)
 
 - [**OSDI 2021**] Marius: Learning Massive Graph Embeddings on a Single Machine.
 
@@ -188,13 +190,16 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 - [**EuroSys 2020**] Subway: minimizing data transfer during out-of-GPU-memory graph processing.
   > _Amir Hossein Nodehi Sabet, et al._ [[paper]](https://dl.acm.org/doi/abs/10.1145/3342195.3387537)
 
+- [**FCS 2020**] WolfGraph: The edge-centric graph processing on GPU.
+  > _Huanzhou Zhu, Ligang He, et al._ [[paper]](https://www.sciencedirect.com/science/article/pii/S0167739X18325251)
+
 - [**VLDB 2017**] A Distributed Multi-GPU System for Fast Graph Processing.
   > _Zhihao Jia, et al._ [[paper]](https://www.vldb.org/pvldb/vol11/p297-jia.pdf)
 
 - [**PPoPP 2016**] Gunrock: a high-performance graph processing library on the GPU.
   > _Yangzihao Wang, Andrew Davidson, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3016078.2851145)
 
-## GPU
+## Vector Search 
 - [**ASPLOS 2024**] JUNO: Optimizing High-Dimensional Approximate Nearest Neighbour Search with Sparsity-Aware Algorithm and Ray-Tracing Core Mapping.
   > _Zihan Liu, et al._ 
 
@@ -204,18 +209,27 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 - [**HPCA 2022**] Tacker: Tensor-CUDA Core Kernel Fusion for Improving the GPU Utilization while Ensuring QoS.
   > _Han Zhao, Weihao Cui, Quan Chen, et al._ [[paper]](https://ieeexplore.ieee.org/document/9773253)
 
+- [**ICDE 2022**] GPU-accelerated Proximity Graph Approximate Nearest Neighbor Search and Construction.
+  > _Yuanhang Yu, Dong Wen, et al._ [[paper]](https://ieeexplore.ieee.org/document/9835618)
+
 - [**PPoPP 2022**] RTNN: accelerating neighbor search using hardware ray tracing.
   > _Yuhao Zhu._ [[paper]](https://dl.acm.org/doi/10.1145/3503221.3508409)
 
+- [**SIGMOD 2021**] Milvus: A Purpose-Built Vector Data Management System.
+  > _Jianguo Wang, Xiaomeng Yi, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3448016.3457550)
+
+- [**TOBD 2021**] Billion-Scale Similarity Search with GPUs.
+  > _Jeff Johnson, et al._ [[paper]](https://www.computer.org/csdl/journal/bd/2021/03/08733051/1aFvgKKpjoc)
+
 ## Miscellaneous
+- [**ASPLOS 2024**] GMLake: Efficient and Transparent GPU Memory Defragmentation for Large-scale DNN Training with Virtual Memory Stitching.
+  > _Cong Guo, Rui Zhang, Jiale Xu, Jingwen Leng, et al._ 
+
 - [**ISCA 2023**] Shogun: A Task Scheduling Framework for Graph Mining Accelerators.
   > _Yibo Wu, Jianfeng Zhu, Wenrui Wei, et al._ [[paper]](https://dl.acm.org/doi/abs/10.1145/3579371.3589086)
-
-- [**SOSP 2023**] UGACHE: A Unified GPU Cache for Embedding-based Deep Learning.
-  > _Xiaoniu Song, Yiwen Zhang, Rong Chen, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3600006.3613169)
 
 - [**ICS 2021**] ThundeRiNG: Generating Multiple Independent Random Number Sequences on FPGAs.
   > _Hongshi Tan, Xinyu Chen, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3447818.3461664)
 
-- [**SIGMOD 2021**] Milvus: A Purpose-Built Vector Data Management System.
-  > _Jianguo Wang, Xiaomeng Yi, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3448016.3457550)
+
+
