@@ -154,6 +154,10 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 
   > _Yuke Wang, Boyuan Feng, Gushu Li, et al._ [[paper]](https://www.usenix.org/conference/osdi21/presentation/wang-yuke)
 
+- [**PPoPP 2021**] Understanding and bridging the gaps in current GNN performance optimizations.
+
+  > _Kezhao Huang, Jidong Zhai, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3437801.3441585)
+
 - [**VLDB 2021**] Large graph convolutional network training with GPU-oriented data communication architecture.
   > _Seung Won Min, Kun Wu, et al._ [[paper]](https://dl.acm.org/doi/10.14778/3476249.3476264)
 
@@ -224,6 +228,12 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 ## Miscellaneous
 - [**ASPLOS 2024**] GMLake: Efficient and Transparent GPU Memory Defragmentation for Large-scale DNN Training with Virtual Memory Stitching.
   > _Cong Guo, Rui Zhang, Jiale Xu, Jingwen Leng, et al._ 
+
+- [**ASPLOS 2024**] ngAP: Non-blocking Large-scale Automata Processing on GPUs.
+  > _Tianao Ge, Tong Zhang, and Hongyuan Liu._ [[paper]](https://dl.acm.org/doi/10.1145/3617232.3624848)
+
+- [**EuroSys 2024**] Orion: Interference-aware, Fine-grained GPU Sharing for ML Applications.
+  > _Foteini Strati, Xianzhe Ma, and Ana Klimovic._ [[paper]](https://dl.acm.org/doi/10.1145/3627703.3629578)
 
 - [**ISCA 2023**] Shogun: A Task Scheduling Framework for Graph Mining Accelerators.
   > _Yibo Wu, Jianfeng Zhu, Wenrui Wei, et al._ [[paper]](https://dl.acm.org/doi/abs/10.1145/3579371.3589086)
