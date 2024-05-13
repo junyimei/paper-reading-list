@@ -238,8 +238,17 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 - [**ISCA 2023**] Shogun: A Task Scheduling Framework for Graph Mining Accelerators.
   > _Yibo Wu, Jianfeng Zhu, Wenrui Wei, et al._ [[paper]](https://dl.acm.org/doi/abs/10.1145/3579371.3589086)
 
+- [**VLDB 2022**] Query Processing on Tensor Computation Runtimes.
+  > _Dong He, et al._ [[paper]](https://www.vldb.org/pvldb/vol15/p2811-he.pdf)
+
 - [**ICS 2021**] ThundeRiNG: Generating Multiple Independent Random Number Sequences on FPGAs.
   > _Hongshi Tan, Xinyu Chen, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3447818.3461664)
+
+- [**arxiv 2019**] Glow: Graph Lowering Compiler Techniques for Neural Networks.
+  > _Nadav Rotem, Jordan Fix, et al._ [[paper]](https://arxiv.org/abs/1805.00907)
+
+- [**OSDI 2018**] TVM: an automated end-to-end optimizing compiler for deep learning.
+  > _Tianqi Chen, Thierry Moreau, et al._ [[paper]](https://dl.acm.org/doi/abs/10.5555/3291168.3291211)
 
 
 
