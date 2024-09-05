@@ -104,6 +104,14 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 
   > _Zhiyuan Li, Xun Jian, et al._ [[paper]](https://dl.acm.org/doi/10.14778/3648160.3648176)
 
+- [**VLDB 2024**] Comprehensive Evaluation of GNN Training Systems: A Data Management Perspective.
+
+  > _Hao Yuan, Yajiong Liu, et al._ [[paper]](https://dl.acm.org/doi/10.14778/3648160.3648167)
+
+- [**VLDB 2024**] NeutronOrch: Rethinking Sample-Based GNN Training under CPU-GPU Heterogeneous Environments.
+
+  > _Xin Ai, Qiange Wang, et al._ [[paper]](https://dl.acm.org/doi/10.14778/3659437.3659453)
+
 - [**ASPLOS 2023**] uGrapher: High-Performance Graph Operator Computation via Unified Abstraction for Graph Neural Networks.
 
   > _Yangjie Zhou, Jingwen Leng, Yaoxu Song, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3575693.3575723)
@@ -166,6 +174,18 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
   > _Seung Won Min, Kun Wu, et al._ [[paper]](https://dl.acm.org/doi/10.14778/3476249.3476264)
 
 ## Graph Processing
+
+- [**ATC 2024**] Efficient Large Graph Processing with Chunk-Based Graph Representation Model.
+
+  > _Rui Wang, et al._ [[paper]](https://www.usenix.org/conference/atc24/presentation/wang-rui)
+
+- [**VLDB 2024**] BYO: A Unified Framework for Benchmarking Large-Scale Graph Containers.
+
+  > _Brian Wheatman, Xiaojun Dong, et al._ [[paper]](https://dl.acm.org/doi/10.14778/3665844.3665859)
+
+- [**VLDB 2024**] CGgraph: An Ultra-fast Graph Processing System on Modern Commodity CPU-GPU Co-processor.
+
+  > _Pengjie Cui, et al._ [[paper]](https://dl.acm.org/doi/10.14778/3648160.3648179)
 
 - [**ASPLOS 2023**] Achieving Sub-second Pairwise Query over Evolving Graphs.
 
