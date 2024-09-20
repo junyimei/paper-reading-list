@@ -1,6 +1,6 @@
 # paper-reading-list
 
-Papers about graph sampling framework, GNN system, graph processing and GPU techniques. Inspired by [Literature on Graph Neural Networks Acceleration](https://github.com/BUAA-CI-Lab/Literatures-on-GNN-Acceleration#literature-on-graph-neural-networks-acceleration).
+Jot down the awesome papers I've read. Mainly about graph sampling framework, GNN system, graph processing and GPU techniques. Inspired by [Literature on Graph Neural Networks Acceleration](https://github.com/BUAA-CI-Lab/Literatures-on-GNN-Acceleration#literature-on-graph-neural-networks-acceleration).
 
 - [paper-reading-list](#paper-reading-list)
   - [Graph Sampling](#graph-sampling)
@@ -8,8 +8,11 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
     - [Graph Sampling on GPU and FPGA](#graph-sampling-on-gpu-and-fpga)
   - [GNN | Graph Embedding](#gnn--graph-embedding)
   - [Graph Processing](#graph-processing)
-  - [Vector Search](#vector-search)
-  - [Miscellaneous](#miscellaneous)
+  - [Other Topics of Interest](#other-topics-of-interest)
+    - [Vector Search](#vector-search)
+    - [GPU-related Techniques](#gpu-related-techniques)
+    - [Compiler](#compiler)
+    - [Architecture](#architecture)
 
 
 ## Graph Sampling
@@ -191,6 +194,7 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 
   > _Hongtao Chen, Mingxing Zhang, Ke Yang, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3575693.3576173)
 
+
 - [**SC 2023**] Choosing the Best Parallelization and Implementation Styles for Graph Analytics Codes: Lessons Learned from 1106 Programs.
 
   > _Yiqian Liu, Noushin Azami, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3581784.3607038)
@@ -230,7 +234,9 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 - [**PPoPP 2016**] Gunrock: a high-performance graph processing library on the GPU.
   > _Yangzihao Wang, Andrew Davidson, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3016078.2851145)
 
-## Vector Search 
+
+## Other Topics of Interest
+### Vector Search 
 - [**ASPLOS 2024**] JUNO: Optimizing High-Dimensional Approximate Nearest Neighbour Search with Sparsity-Aware Algorithm and Ray-Tracing Core Mapping.
   > _Zihan Liu, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3620665.3640360)
 
@@ -252,7 +258,8 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 - [**TOBD 2021**] Billion-Scale Similarity Search with GPUs.
   > _Jeff Johnson, et al._ [[paper]](https://www.computer.org/csdl/journal/bd/2021/03/08733051/1aFvgKKpjoc)
 
-## Miscellaneous
+
+### GPU-related Techniques
 - [**ASPLOS 2024**] GMLake: Efficient and Transparent GPU Memory Defragmentation for Large-scale DNN Training with Virtual Memory Stitching.
   > _Cong Guo, Rui Zhang, Jiale Xu, Jingwen Leng, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3620665.3640423)
 
@@ -265,20 +272,24 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 - [**EuroSys 2024**] Orion: Interference-aware, Fine-grained GPU Sharing for ML Applications.
   > _Foteini Strati, Xianzhe Ma, and Ana Klimovic._ [[paper]](https://dl.acm.org/doi/10.1145/3627703.3629578)
 
-- [**PPoPP 2024**] ConvStencil: Transform Stencil Computation to Matrix Multiplication on Tensor Cores.
-  > _Yuetao Chen, Kun Li, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3627535.3638476)
-
 - [**PPoPP 2024**] Gallatin: A General-Purpose GPU Memory Manager.
   > _Hunter Mccoy, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3627535.3638499)
-
-- [**ISCA 2023**] Shogun: A Task Scheduling Framework for Graph Mining Accelerators.
-  > _Yibo Wu, Jianfeng Zhu, Wenrui Wei, et al._ [[paper]](https://dl.acm.org/doi/abs/10.1145/3579371.3589086)
 
 - [**VLDB 2022**] Query Processing on Tensor Computation Runtimes.
   > _Dong He, et al._ [[paper]](https://www.vldb.org/pvldb/vol15/p2811-he.pdf)
 
-- [**ICS 2021**] ThundeRiNG: Generating Multiple Independent Random Number Sequences on FPGAs.
-  > _Hongshi Tan, Xinyu Chen, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3447818.3461664)
+- [**MICRO 2017**] Versapipe: a versatile programming framework for pipelined computing on GPU.
+  > _Zhen Zheng, Chanyoung Oh, Jidong Zhai, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3123939.3123978)
+
+### Compiler
+- [**GCO 2024**] oneDNN Graph Compiler: A Hybrid Approach for High-Performance Deep Learning Compilation.
+  > _Jianhui Li, et al._ [[paper]](https://www.computer.org/csdl/proceedings-article/cgo/2024/10444871/1UUdPicbmOA)
+
+- [**PPoPP 2024**] ConvStencil: Transform Stencil Computation to Matrix Multiplication on Tensor Cores.
+  > _Yuetao Chen, Kun Li, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3627535.3638476)
+
+- [**HPCA 2023**] Chimera: An Analytical Optimizing Framework for Effective Compute-intensive Operators Fusion.
+  > _S. Zheng, et al._ [[paper]](https://ieeexplore.ieee.org/document/10071018)
 
 - [**ASPLOS 2020**] FlexTensor: An Automatic Schedule Exploration and Optimization Framework for Tensor Computation on Heterogeneous System.
   > _Size Zheng, Yun Liang, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3373376.3378508)
@@ -289,8 +300,13 @@ Papers about graph sampling framework, GNN system, graph processing and GPU tech
 - [**OSDI 2018**] TVM: an automated end-to-end optimizing compiler for deep learning.
   > _Tianqi Chen, Thierry Moreau, et al._ [[paper]](https://dl.acm.org/doi/abs/10.5555/3291168.3291211)
 
-- [**MICRO 2017**] Versapipe: a versatile programming framework for pipelined computing on GPU.
-  > _Zhen Zheng, Chanyoung Oh, Jidong Zhai, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3123939.3123978)
+### Architecture
+- [**ISCA 2023**] Shogun: A Task Scheduling Framework for Graph Mining Accelerators.
+  > _Yibo Wu, Jianfeng Zhu, Wenrui Wei, et al._ [[paper]](https://dl.acm.org/doi/abs/10.1145/3579371.3589086)
+
+- [**ICS 2021**] ThundeRiNG: Generating Multiple Independent Random Number Sequences on FPGAs.
+  > _Hongshi Tan, Xinyu Chen, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3447818.3461664)
+
 
 
 
