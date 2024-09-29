@@ -150,6 +150,9 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 
   > _Jianbang Yang, Dahai Tang, Xiaoniu Song, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3492321.3519557)
 
+- [**MLSys 2022**] Graphiler: Optimizing graph neural networks with message passing data flow graph.
+  > _Zhiqiang Xie, et al._ [[paper]](https://assets.amazon.science/80/8f/d2f0d72a45ffb02fae21cc74631e/graphiler-optimizing-graph-neural-networks-with-message-passing-data-flow-graph.pdf)
+
 - [**PACT 2022**] T-GCN: A Sampling Based Streaming Graph Neural Network System with Hybrid Architecture.
 
   > _Chengying Huan, Shuaiwen Leon Song, et al._ [[paper]](https://dl.acm.org/doi/abs/10.1145/3559009.3569648)
@@ -160,6 +163,9 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 
 - [**SC 2022**] WholeGraph: A Fast Graph Neural Network Training Framework with Multi-GPU Distributed Shared Memory Architecture.
   > _Dongxu Yang, Junhong Liu, er al._ [[paper]](https://ieeexplore.ieee.org/document/10046129)
+
+- [**EuroSys 2021**] Seastar: Vertex-Centric Programming for Graph Neural Networks.
+  > _Yidi Wu, Kaihao Ma, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3447786.3456247)
 
 - [**OSDI 2021**] Marius: Learning Massive Graph Embeddings on a Single Machine.
 
@@ -175,6 +181,9 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 
 - [**VLDB 2021**] Large graph convolutional network training with GPU-oriented data communication architecture.
   > _Seung Won Min, Kun Wu, et al._ [[paper]](https://dl.acm.org/doi/10.14778/3476249.3476264)
+
+- [**SIGKDD 2020**] Redundancy-Free Computation for Graph Neural Networks.
+  > _Zhihao Jia, Sina Lin, et al._ [[paper]](https://dl.acm.org/doi/abs/10.1145/3394486.3403142)
 
 ## Graph Processing
 
