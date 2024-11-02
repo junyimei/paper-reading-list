@@ -94,6 +94,9 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
   > _S. Pandey, L. Li, A. Hoisie, X. S. Li and H. Liu._ [[paper]](https://ieeexplore.ieee.org/document/9355289)
 
 ## GNN | Graph Embedding
+- [**ASPLOS 2024**] FastGL: A GPU-Efficient Framework for Accelerating Sampling-Based GNN Training at Large Scale.
+
+  > _Zeyu Zhu, et al._ [[paper]](https://arxiv.org/abs/2409.14939)
 
 - [**SIGMOD 2024**] HongTu: Scalable Full-Graph GNN Training on Multiple GPUs.
 
@@ -182,6 +185,9 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 - [**VLDB 2021**] Large graph convolutional network training with GPU-oriented data communication architecture.
   > _Seung Won Min, Kun Wu, et al._ [[paper]](https://dl.acm.org/doi/10.14778/3476249.3476264)
 
+- [**SC 2020**] FeatGraph: a flexible and efficient backend for graph neural network systems.
+  > _Yuwei Hu, Zihao Ye, Minjie Wang, et al._ [[paper]](https://dl.acm.org/doi/abs/10.5555/3433701.3433795)
+
 - [**SIGKDD 2020**] Redundancy-Free Computation for Graph Neural Networks.
   > _Zhihao Jia, Sina Lin, et al._ [[paper]](https://dl.acm.org/doi/abs/10.1145/3394486.3403142)
 
@@ -234,6 +240,12 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 - [**FCS 2020**] WolfGraph: The edge-centric graph processing on GPU.
   > _Huanzhou Zhu, Ligang He, et al._ [[paper]](https://www.sciencedirect.com/science/article/pii/S0167739X18325251)
 
+- [**EuroPar 2018**] Design Principles for Sparse Matrix Multiplication on the GPU.
+  > _Carl Yang, et al._ [[paper]](https://dl.acm.org/doi/10.1007/978-3-319-96983-1_48)
+
+- [**BigData 2017**] Making caches work for graph analytics.
+  > _Yunming Zhang, Vladimir Kiriansk, et al._ [[paper]](https://ieeexplore.ieee.org/document/8257937)
+
 - [**FAST 2017**] Graphene: Fine-Grained IO Management for Graph Computing.
   > _Hang Liu and H. Howie Huang._ [[paper]](https://www.usenix.org/conference/fast17/technical-sessions/presentation/liu)
 
@@ -243,6 +255,11 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 - [**PPoPP 2016**] Gunrock: a high-performance graph processing library on the GPU.
   > _Yangzihao Wang, Andrew Davidson, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3016078.2851145)
 
+- [**IPDPS 2015**] Optimizing Sparse Matrix Operations on GPUs Using Merge Path.
+  > _Steven Dalton, Sean Baxter, et al._ [[paper]](https://ieeexplore.ieee.org/document/7161529)
+
+- [**IPDPS 2014**] Work-Efficient Parallel GPU Methods for Single-Source Shortest Paths.
+  > _Andrew Davidson, Sean Baxter, et al._ [[paper]](https://ieeexplore.ieee.org/document/6877269)
 
 ## Other Topics of Interest
 ### Vector Search 
@@ -283,6 +300,9 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 
 - [**PPoPP 2024**] Gallatin: A General-Purpose GPU Memory Manager.
   > _Hunter Mccoy, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3627535.3638499)
+
+- [**PPoPP 2023**] A Programming Model for GPU Load Balancing.
+  > _Muhammad Osama, Serban D. Porumbescu, and John D. Owens._ [[paper]](https://dl.acm.org/doi/10.1145/3572848.3577434)
 
 - [**VLDB 2022**] Query Processing on Tensor Computation Runtimes.
   > _Dong He, et al._ [[paper]](https://www.vldb.org/pvldb/vol15/p2811-he.pdf)
