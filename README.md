@@ -255,6 +255,9 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 - [**PPoPP 2016**] Gunrock: a high-performance graph processing library on the GPU.
   > _Yangzihao Wang, Andrew Davidson, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3016078.2851145)
 
+- [**SC 2016**] Merge-Based Parallel Sparse Matrix-Vector Multiplication.
+  > _D. Merrill and M. Garland._ [[paper]](https://ieeexplore.ieee.org/document/7877136)
+
 - [**IPDPS 2015**] Optimizing Sparse Matrix Operations on GPUs Using Merge Path.
   > _Steven Dalton, Sean Baxter, et al._ [[paper]](https://ieeexplore.ieee.org/document/7161529)
 
@@ -314,11 +317,23 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 - [**GCO 2024**] oneDNN Graph Compiler: A Hybrid Approach for High-Performance Deep Learning Compilation.
   > _Jianhui Li, et al._ [[paper]](https://www.computer.org/csdl/proceedings-article/cgo/2024/10444871/1UUdPicbmOA)
 
+- [**GCO 2024**] Seer: Predictive Runtime Kernel Selection for Irregular Problems.
+  > _Ryan Swann, Muhammad Osama, et al._ [[paper]](https://dl.acm.org/doi/10.1109/CGO57630.2024.10444812)
+
 - [**PPoPP 2024**] ConvStencil: Transform Stencil Computation to Matrix Multiplication on Tensor Cores.
   > _Yuetao Chen, Kun Li, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3627535.3638476)
 
 - [**HPCA 2023**] Chimera: An Analytical Optimizing Framework for Effective Compute-intensive Operators Fusion.
   > _S. Zheng, et al._ [[paper]](https://ieeexplore.ieee.org/document/10071018)
+
+- [**PPoPP 2023**] WISE: Predicting the Performance of Sparse Matrix Vector Multiplication with Machine Learning.
+  > _Serif Yesil, Azin Heidarshenas, Adam Morrison, and Josep Torrellas._ [[paper]](https://dl.acm.org/doi/10.1145/3572848.3577506)
+
+- [**PACT 2022**] Decoupling Schedule, Topology Layout, and Algorithm to Easily Enlarge the Tuning Space of GPU Graph Processing.
+  > _Shinnung Jeong, Yongwoo Lee, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3559009.3569686)
+
+- [**GCO 2021**] Compiling Graph Applications for GPU s with GraphIt.
+  > _Ajay Brahmakshatriya, Yunming Zhang, et al._ [[paper]](https://ieeexplore.ieee.org/document/9370321)
 
 - [**ASPLOS 2020**] FlexTensor: An Automatic Schedule Exploration and Optimization Framework for Tensor Computation on Heterogeneous System.
   > _Size Zheng, Yun Liang, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3373376.3378508)
@@ -326,8 +341,20 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 - [**arxiv 2019**] Glow: Graph Lowering Compiler Techniques for Neural Networks.
   > _Nadav Rotem, Jordan Fix, et al._ [[paper]](https://arxiv.org/abs/1805.00907)
 
+- [**PPoPP 2019**] A pattern based algorithmic autotuner for graph processing on GPUs.
+  > _Ke Meng, Jiajia Li, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3293883.3295716)
+
+- [**OOPSLA 2018**] GraphIt: a high-performance graph DSL.
+  > _Zhang Yunming, Yang Mengjiao, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3276491)
+
 - [**OSDI 2018**] TVM: an automated end-to-end optimizing compiler for deep learning.
   > _Tianqi Chen, Thierry Moreau, et al._ [[paper]](https://dl.acm.org/doi/abs/10.5555/3291168.3291211)
+
+- [**OOPSLA 2016**] A compiler for throughput optimization of graph algorithms on GPUs.
+  > _Sreepathi Pai and Keshav Pingali._ [[paper]](https://dl.acm.org/doi/10.1145/2983990.2984015)
+
+- [**PACT 2014**] OpenTuner: An extensible framework for program autotuning.
+  > _Jason Ansel, et al._ [[paper]](https://ieeexplore.ieee.org/document/7855909)
 
 ### Architecture
 - [**ISCA 2023**] Shogun: A Task Scheduling Framework for Graph Mining Accelerators.
