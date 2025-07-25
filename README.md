@@ -9,6 +9,7 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
   - [GNN | Graph Embedding](#gnn--graph-embedding)
   - [Graph Processing](#graph-processing)
   - [Other Topics of Interest](#other-topics-of-interest)
+    - [Sparse Matrix](#sparse-matrix)
     - [Vector Search](#vector-search)
     - [GPU-related Techniques](#gpu-related-techniques)
     - [Compiler](#compiler)
@@ -98,6 +99,10 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 
   > _Zeyu Zhu, et al._ [[paper]](https://arxiv.org/abs/2409.14939)
 
+- [**EuroSys 2024**] WiseGraph: Optimizing GNN with Joint Workload Partition of Graph and Operations.
+
+  > _Kezhao Huang, Jidong Zhai, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3627703.3650063)
+
 - [**SIGMOD 2024**] HongTu: Scalable Full-Graph GNN Training on Multiple GPUs.
 
   > _Qiange Wang, Yao Chen, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3626733)
@@ -130,6 +135,10 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 
   > _Yuke Wang, Boyuan Feng, et al._ [[paper]](https://www.usenix.org/conference/atc23/presentation/wang-yuke)
 
+- [**CF 2023**] AdaptGear: Accelerating GNN Training via Adaptive Subgraph-Level Kernels on GPUs.
+
+  > _Yangjie Zhou, Yaoxu Song, Jingwen Leng, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3587135.3592199)
+
 - [**EuroSys 2023**] MariusGNN: Resource-Efficient Out-of-Core Training of Graph Neural Networks.
 
   > _Roger Waleffe, Jason Mohoney, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3552326.3567501)
@@ -155,6 +164,9 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 
 - [**MLSys 2022**] Graphiler: Optimizing graph neural networks with message passing data flow graph.
   > _Zhiqiang Xie, et al._ [[paper]](https://assets.amazon.science/80/8f/d2f0d72a45ffb02fae21cc74631e/graphiler-optimizing-graph-neural-networks-with-message-passing-data-flow-graph.pdf)
+
+- [**MLSys 2022**] Understanding gnn computational graph: A coordinated computation, io, and memory perspective.
+  > _Hengrui Zhang, et al._ [[paper]](https://proceedings.mlsys.org/paper_files/paper/2022/file/b559156047e50cf316207249d0b5a6c5-Paper.pdf)
 
 - [**PACT 2022**] T-GCN: A Sampling Based Streaming Graph Neural Network System with Hybrid Architecture.
 
@@ -185,8 +197,12 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 - [**VLDB 2021**] Large graph convolutional network training with GPU-oriented data communication architecture.
   > _Seung Won Min, Kun Wu, et al._ [[paper]](https://dl.acm.org/doi/10.14778/3476249.3476264)
 
+- [**ICCAD 2020**] fuseGNN: accelerating graph convolutional neural network training on GPGPU.
+  > _Zhaodong Chen, Mingyu Yan, et al._ [[paper]](https://dl.acm.org/doi/abs/10.1145/3400302.3415610)
+
 - [**SC 2020**] FeatGraph: a flexible and efficient backend for graph neural network systems.
   > _Yuwei Hu, Zihao Ye, Minjie Wang, et al._ [[paper]](https://dl.acm.org/doi/abs/10.5555/3433701.3433795)
+
 
 - [**SIGKDD 2020**] Redundancy-Free Computation for Graph Neural Networks.
   > _Zhihao Jia, Sina Lin, et al._ [[paper]](https://dl.acm.org/doi/abs/10.1145/3394486.3403142)
@@ -214,6 +230,7 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 
   > _Yiqian Liu, Noushin Azami, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3581784.3607038)
 
+
 - [**OSDI 2022**] Efficient and Scalable Graph Pattern Mining on GPUs.
 
   > _Xuhao Chen and Arvind._ [[paper]](https://www.usenix.org/system/files/osdi22-chen.pdf)
@@ -240,9 +257,6 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 - [**FCS 2020**] WolfGraph: The edge-centric graph processing on GPU.
   > _Huanzhou Zhu, Ligang He, et al._ [[paper]](https://www.sciencedirect.com/science/article/pii/S0167739X18325251)
 
-- [**EuroPar 2018**] Design Principles for Sparse Matrix Multiplication on the GPU.
-  > _Carl Yang, et al._ [[paper]](https://dl.acm.org/doi/10.1007/978-3-319-96983-1_48)
-
 - [**BigData 2017**] Making caches work for graph analytics.
   > _Yunming Zhang, Vladimir Kiriansk, et al._ [[paper]](https://ieeexplore.ieee.org/document/8257937)
 
@@ -255,19 +269,48 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 - [**PPoPP 2016**] Gunrock: a high-performance graph processing library on the GPU.
   > _Yangzihao Wang, Andrew Davidson, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3016078.2851145)
 
+- [**IPDPS 2014**] Work-Efficient Parallel GPU Methods for Single-Source Shortest Paths.
+  > _Andrew Davidson, Sean Baxter, et al._ [[paper]](https://ieeexplore.ieee.org/document/6877269)
+
+## Other Topics of Interest
+### Sparse Matrix
+- [**ISCA 2025**] RTSpMSpM: Harnessing Ray Tracing for Efficient Sparse Matrix Computations.
+  > _Hongrui Zhang, Yunan Zhang, and Hung-Wei Tseng._ [[paper]](https://dl.acm.org/doi/10.1145/3695053.3731072)
+
+- [**ASPLOS 2023**] SparseTIR: Composable Abstractions for Sparse Compilation in Deep Learning.
+  > _Zihao Ye, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3582016.3582047)
+
+- [**DAC 2022**] Heuristic adaptability to input dynamics for SpMM on GPUs.
+  > _Guohao Dai, Guyue Huang, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3489517.3530508)
+
+- and [**arxiv 2021**] Efficient Sparse Matrix Kernels based on Adaptive Workload-Balancing and Parallel-Reduction.
+  > _Guyue Huang, Guohao Dai, et al._ [[paper]](https://arxiv.org/pdf/2106.16064)
+  
+- [**SC 2020**] GE-SpMM: General-Purpose Sparse Matrix-Matrix Multiplication on GPUs for Graph Neural Networks.
+  > _Guyue Huang, Guohao Dai, et al._ [[paper]](https://ieeexplore.ieee.org/document/9355302)
+
+- [**EuroPar 2018**] Design Principles for Sparse Matrix Multiplication on the GPU.
+  > _Carl Yang, et al._ [[paper]](https://dl.acm.org/doi/10.1007/978-3-319-96983-1_48)
+
 - [**SC 2016**] Merge-Based Parallel Sparse Matrix-Vector Multiplication.
   > _D. Merrill and M. Garland._ [[paper]](https://ieeexplore.ieee.org/document/7877136)
 
 - [**IPDPS 2015**] Optimizing Sparse Matrix Operations on GPUs Using Merge Path.
   > _Steven Dalton, Sean Baxter, et al._ [[paper]](https://ieeexplore.ieee.org/document/7161529)
 
-- [**IPDPS 2014**] Work-Efficient Parallel GPU Methods for Single-Source Shortest Paths.
-  > _Andrew Davidson, Sean Baxter, et al._ [[paper]](https://ieeexplore.ieee.org/document/6877269)
+- [**SC 2014**] Efficient Sparse Matrix-Vector Multiplication on GPUs using the CSR Storage Format.
+  > _Joseph L. Greathouse and Mayank Daga._ [[paper]](https://ieeexplore.ieee.org/document/7013050)
 
-## Other Topics of Interest
+- [**SC 2009**] Implementing Sparse Matrix-Vector Multiplication
+on Throughput-Oriented Processors.
+  > _Nathan Bell, Michael Garland._ [[paper]](https://www.nvidia.com/docs/io/77944/sc09-spmv-throughput.pdf)
+
 ### Vector Search 
 - [**ASPLOS 2024**] JUNO: Optimizing High-Dimensional Approximate Nearest Neighbour Search with Sparsity-Aware Algorithm and Ray-Tracing Core Mapping.
   > _Zihan Liu, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3620665.3640360)
+
+- [**PPoPP 2023**] WISE: Predicting the Performance of Sparse Matrix Vector Multiplication with Machine Learning.
+  > _Serif Yesil, Azin Heidarshenas, Adam Morrison, and Josep Torrellas._ [[paper]](https://dl.acm.org/doi/10.1145/3572848.3577506)
 
 - [**SC 2023**] Parallel Top-K Algorithms on GPU: A Comprehensive Study and New Methods.
   > _Jingrong Zhang, Akira Naruse, Xipeng Li, and Yong Wang._ [[paper]](https://dl.acm.org/doi/10.1145/3581784.3607062)
@@ -326,8 +369,9 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 - [**HPCA 2023**] Chimera: An Analytical Optimizing Framework for Effective Compute-intensive Operators Fusion.
   > _S. Zheng, et al._ [[paper]](https://ieeexplore.ieee.org/document/10071018)
 
-- [**PPoPP 2023**] WISE: Predicting the Performance of Sparse Matrix Vector Multiplication with Machine Learning.
-  > _Serif Yesil, Azin Heidarshenas, Adam Morrison, and Josep Torrellas._ [[paper]](https://dl.acm.org/doi/10.1145/3572848.3577506)
+
+- [**MLSys 2022**] Understanding gnn computational graph: A coordinated computation, io, and memory perspective.
+  > _Hengrui Zhang, et al._ [[paper]](https://proceedings.mlsys.org/paper_files/paper/2022/file/b559156047e50cf316207249d0b5a6c5-Paper.pdf)
 
 - [**PACT 2022**] Decoupling Schedule, Topology Layout, and Algorithm to Easily Enlarge the Tuning Space of GPU Graph Processing.
   > _Shinnung Jeong, Yongwoo Lee, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3559009.3569686)
