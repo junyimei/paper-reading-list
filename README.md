@@ -95,6 +95,10 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
   > _S. Pandey, L. Li, A. Hoisie, X. S. Li and H. Liu._ [[paper]](https://ieeexplore.ieee.org/document/9355289)
 
 ## GNN | Graph Embedding
+- [**KDD 2025**] CompressGNN: Accelerating Graph Neural Network Training via Hierarchical Compression.
+
+  > _Zheng Chen, Feng Zhang, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3711896.3736888)
+
 - [**ASPLOS 2024**] FastGL: A GPU-Efficient Framework for Accelerating Sampling-Based GNN Training at Large Scale.
 
   > _Zeyu Zhu, et al._ [[paper]](https://arxiv.org/abs/2409.14939)
@@ -157,6 +161,10 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 
 - [**SOSP 2023**] UGACHE: A Unified GPU Cache for Embedding-based Deep Learning.
   > _Xiaoniu Song, Yiwen Zhang, Rong Chen, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3600006.3613169)
+
+- [**ICCD 2022**] Towards Sparsification of Graph Neural Networks 
+
+  > _Hongwu Peng, et al._ [[paper]](https://ieeexplore.ieee.org/document/9978504)
 
 - [**EuroSys 2022**] GNNLab: a factored system for sample-based GNN training over GPUs.
 
@@ -277,6 +285,12 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
 - [**ISCA 2025**] RTSpMSpM: Harnessing Ray Tracing for Efficient Sparse Matrix Computations.
   > _Hongrui Zhang, Yunan Zhang, and Hung-Wei Tseng._ [[paper]](https://dl.acm.org/doi/10.1145/3695053.3731072)
 
+- [**PPoPP 2025**] FlashSparse: Minimizing Computation Redundancy for Fast Sparse Matrix Multiplications on Tensor Cores.
+  > _Jinliang Shi, Shigang Li, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3710848.3710858)
+
+- [**TCAD 2024**] Fine-Grained Structured Sparse Computing for FPGA-Based AI Inference.
+  > _Chen Zhang, Shijie Cao, Guohao Dai, et al._ [[paper]](https://dai.sjtu.edu.cn/my_file/pdf/22570fa0-ea41-4f21-a376-f43cd77bbf25.pdf)
+
 - [**ASPLOS 2023**] SparseTIR: Composable Abstractions for Sparse Compilation in Deep Learning.
   > _Zihao Ye, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3582016.3582047)
 
@@ -288,6 +302,9 @@ Jot down the awesome papers I've read. Mainly about graph sampling framework, GN
   
 - [**SC 2020**] GE-SpMM: General-Purpose Sparse Matrix-Matrix Multiplication on GPUs for Graph Neural Networks.
   > _Guyue Huang, Guohao Dai, et al._ [[paper]](https://ieeexplore.ieee.org/document/9355302)
+
+- [**SC 2020**] Sparse GPU Kernels for Deep Learning.
+  > _Trevor Gale, et al._ [[paper]](https://arxiv.org/pdf/2006.10901)
 
 - [**EuroPar 2018**] Design Principles for Sparse Matrix Multiplication on the GPU.
   > _Carl Yang, et al._ [[paper]](https://dl.acm.org/doi/10.1007/978-3-319-96983-1_48)
