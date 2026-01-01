@@ -323,8 +323,26 @@ on Throughput-Oriented Processors.
   > _Nathan Bell, Michael Garland._ [[paper]](https://www.nvidia.com/docs/io/77944/sc09-spmv-throughput.pdf)
 
 ### Vector Search 
+- [**arxiv 2025**] LEANN: A LOW-STORAGE OVERHEAD VECTOR INDEX.
+  > _Yichuan Wang, et al._ [[paper]](https://arxiv.org/pdf/2506.08276)
+
+- [**arxiv 2025**] Lossless Compression of Vector IDs for Approximate Nearest Neighbor Search.
+  > _Daniel Severo, et al._ [[paper]](https://arxiv.org/abs/2501.10479)
+
+- [**ICDE 2025**] Vista: Vector Indexing and Search for Large-Scale Imbalanced Datasets
+  > _Yujian Fu, et al._ [[paper]](https://ieeexplore.ieee.org/document/11112943)
+
+- [**ICML 2025**] Down with the Hierarchy: The ‘H’ in HNSW Stands for “Hubs”
+  > _Blaise Munyampirwa, Vihan Lakshman, Benjamin Coleman._ [[paper]](https://arxiv.org/abs/2412.01940)
+
+- [**SIGMOD 2025**] iRangeGraph: Improvising Range-dedicated Graphs for Range-filtering Nearest Neighbor Search
+  > _Yuexuan Xu, Jianyang Gao, et al._ [[paper]](https://dl.acm.org/doi/abs/10.1145/3698814)
+
 - [**ASPLOS 2024**] JUNO: Optimizing High-Dimensional Approximate Nearest Neighbour Search with Sparsity-Aware Algorithm and Ray-Tracing Core Mapping.
   > _Zihan Liu, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3620665.3640360)
+
+- [**SIGMOD 2024**] Starling: An I/O-Efficient Disk-Resident Graph Index Framework for High-Dimensional Vector Similarity Search on Data Segment.
+  > _Mengzhao Wang, Weizhi Xu, et al._ [[paper]](https://dl.acm.org/doi/10.1145/3639269)
 
 - [**PPoPP 2023**] WISE: Predicting the Performance of Sparse Matrix Vector Multiplication with Machine Learning.
   > _Serif Yesil, Azin Heidarshenas, Adam Morrison, and Josep Torrellas._ [[paper]](https://dl.acm.org/doi/10.1145/3572848.3577506)
@@ -346,6 +364,9 @@ on Throughput-Oriented Processors.
 
 - [**TOBD 2021**] Billion-Scale Similarity Search with GPUs.
   > _Jeff Johnson, et al._ [[paper]](https://www.computer.org/csdl/journal/bd/2021/03/08733051/1aFvgKKpjoc)
+
+- [**NIPS 2019**] DiskANN: Fast Accurate Billion-point Nearest Neighbor Search on a Single Node.
+  > _Suhas Jayaram Subramanya, et al._ [[paper]](https://papers.nips.cc/paper_files/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html)
 
 
 ### GPU-related Techniques
@@ -385,7 +406,6 @@ on Throughput-Oriented Processors.
 
 - [**HPCA 2023**] Chimera: An Analytical Optimizing Framework for Effective Compute-intensive Operators Fusion.
   > _S. Zheng, et al._ [[paper]](https://ieeexplore.ieee.org/document/10071018)
-
 
 - [**MLSys 2022**] Understanding gnn computational graph: A coordinated computation, io, and memory perspective.
   > _Hengrui Zhang, et al._ [[paper]](https://proceedings.mlsys.org/paper_files/paper/2022/file/b559156047e50cf316207249d0b5a6c5-Paper.pdf)
